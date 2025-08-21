@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.crypto-containerr {
+  padding: 20px 60px;
+}
+
+
+.navbarr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logoo {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+}
+
+.btn-primaryy {
+  background: white;
+  color: black;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition:  0.3s ease;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+.btn-primaryy:hover {
+  background: red;
+  color: white;
+}
+
+
+.heroo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.heroo-textt h2 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 100px;
+}
+
+.heroo-textt p {
+  margin-top: 16px;
+  color: ghostwhite;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.heroo-textt .first{
+  color: red;
+}
+
+.heroo-imagee img {
+  width: 400px;
+  height: 350px;
+}
+
+.btn-secondaryy{
+  background: red;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition:  0.3s ease;
+  margin-right: 200px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.btn-secondaryy:hover{
+  background-color: white;
+  color: red;
+}
+
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 90px;
+}
+
+.feature-card {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  height: 170px;
+  margin-left: 100px;
+}
+
+.feature-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-title.blue {
+  color: #3b82f6;
+  font-size: x-large;
+}
+
+.feature-title.purple {
+  color: #a855f7;
+  font-size: x-large;
+}
+
+.feature-title.pink {
+  color: #ec4899;
+  font-size: x-large;
+}
+
+.feature-card p {
+  color: white;
+  font-size: 20px;
+}
+
+
