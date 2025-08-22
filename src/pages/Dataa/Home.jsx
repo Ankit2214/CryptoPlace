@@ -36,7 +36,7 @@ const Home = () => {
      <Navbar/>
         <div className='hero'>
             <h1>Largest Crypto <br/> <span>Marketplace</span></h1>
-            <p>Welcome to the world's largest cryptocurrency Marketplace. Sign up to explore more about cryptos.</p>
+            <p>Welcome to the world's largest cryptocurrency Marketplace</p>
             <form onSubmit={searchHandler}>
                <input onChange={inputHandler} list='coinlist' value={input} type='text' placeholder='Search crypto..' required/>
                
