@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 23px;
 }
 
 .logoo {
@@ -47,7 +47,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 45px;
   gap: 30px;
 }
 
@@ -99,7 +99,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 19px;
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 .feature-card {
